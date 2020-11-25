@@ -12,8 +12,8 @@ package ejemplosfor;
 public class Ejemplo07 {
     public static void main(String[] args) {
         int operacion;
-        
         for (int i = 1; i <= 5; i++) {
+            System.out.println("La tabla de multiplicar es:"+i);
             for (int contador = 1; contador <= 10; contador++) {
                 operacion = i * contador;
                 System.out.printf("%d x %d = %d\n", i, contador, operacion);
